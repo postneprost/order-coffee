@@ -1,0 +1,109 @@
+.beverage {
+    border: 1px solid #eee;
+    margin: 15px 0;
+    padding: 15px;
+    position: relative;
+}
+
+.beverage-count {
+    margin: 0 0 15px;
+}
+
+.field {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.label-text {
+    display: inline-block;
+    width: 80px;
+}
+
+.checkbox-label {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.checkbox-field {
+    margin: 5px 0;
+    display: block;
+}
+
+.add-button {
+    border: none;
+    background: none;
+    padding: 10px;
+    color: rgba(0, 27, 255, 0.82);
+    font-size: 14px;
+    text-decoration: underline dashed;
+    cursor: pointer;
+}
+
+.submit-button {
+    font-size: 16px;
+    padding: 7px 15px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.delete-button {
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+}
+
+.order-accepted-window {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.window-close-button {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.final-order-table {
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.final-order-table th {
+    border-bottom: 2px solid black;
+    padding: 10px 5px;
+}
+
+.final-order-table td {
+    padding: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.wrong-time {
+    border-color: red;
+}
